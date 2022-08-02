@@ -1,0 +1,83 @@
+body {
+    background: #f8f9fa;
+}
+
+/**Nav bar **/
+span.navbar-brand.mb-0.h1 {
+    font-size: 50px;
+    padding: 10px;
+}
+#timeanddate {
+    font-size: 33px;
+    padding: 10px;
+    font-weight: 600;
+}
+/***schedule title bar***/
+.row.head {
+    background: cornflowerblue;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+/**Time**/
+div#timecell {
+    text-align: center;
+    justify-content: center center;
+    border: solid 1px black;
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+ /***text area**/
+ textarea {
+    resize: vertical;
+    font-size: 30px!important;
+    font-style: italic;
+ 
+}
+
+/**Buttons**/
+button.saveBtn.col-2 {
+    font-size: 50px;
+}
+button.saveBtn.col-2 :hover {
+    color: orange;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+button.saveBtn.col-2 :active {
+    color: green;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+   /* color: white;*/
+}
+
+.past {
+    background-color: #000000;
+    color: #767676;
+    border: solid 1px #767676;
+    font-style: italic;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  .present {
+    background-color: #44bd26;
+    color: #ffffff;
+    border: solid 1px #000000;
+    text-shadow: 1px 1px #000;
+  }
+  
+  .future {
+    background-color: #0ebfcc;
+    color: white;
+    border: solid 1px #000000;
+    text-shadow: 1px 1px #000;
+  }
+
+  /**footer**/
+  .card {
+    text-align: center;
+    margin-top: 50px;
+}

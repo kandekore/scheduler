@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Schedular App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://use.fontawesome.com/a06efb80bf.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--- NavBar -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Day Scheduler <i class="fa fa-clock-o" aria-hidden="true"></i></span> <p id="timeanddate" class="lead text-center">test1</p> 
+        </div>
+
+      </nav>
+      <!--- Intro -->
+    <main class="container">
+        <div class="jumbotron" style="padding-top: 20px;">
+            
+            <p class="lead">A useful tool to help you plan your day</p>
+            <hr class="my-4">
+            <p>Add your activities to the text box and click save</p>
+           
+          </div>
+
+          <!--- Sections -->
+
+          <div class="row head">
+            <div class="col 2">Time</div>
+            <div class="col-8">Tasks</div>
+            <div class="col 2">Click to save</div>
+          </div>
+
+          <div class="row" id="9am">
+            <div class="col-2 time" id="timecell">9:00 am</div>
+            <textarea id="9amtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="10am">
+            <div class="col-2 time" id="timecell">10:00 am</div>
+            <textarea id="10amtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="11am">
+            <div class="col-2 time" id="timecell">11:00 am</div>
+            <textarea id="11amtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+        </div>
+
+          <div class="row" id="12pm">
+            <div class="col-2 time" id="timecell">12:00 am</div>
+            <textarea id="12pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="1pm">
+            <div class="col-2 time" id="timecell">1:00 pm</div>
+            <textarea id="1pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="2pm">
+            <div class="col-2 time" id="timecell">2:00 pm</div>
+            <textarea id="2pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="3pm">
+            <div class="col-2 time" id="timecell">3:00 pm</div>
+            <textarea id="3pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="4pm">
+            <div class="col-2 time" id="timecell">4:00 pm</div>
+            <textarea id="4pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+
+          <div class="row" id="5pm">
+            <div class="col-2 time" id="timecell">5:00 pm</div>
+            <textarea id="5pmtxt" rows="2" class="col-8 tasks"></textarea>
+            <button type="button" class="saveBtn col-2"><span class="oi oi-task"></span><i class="fa fa-save"></i></button>
+          </div>
+    </main>
+    <footer>
+        <div class="card">
+            <div class="card-header">
+             <p>Created by Darren Kandekore</p>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin</p>
+                <footer class="blockquote-footer">Mother Theresa </footer>
+              </blockquote>
+            </div>
+          </div>
+    </footer>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment-with-locales.min.js" integrity="sha512-vFABRuf5oGUaztndx4KoAEUVQnOvAIFs59y4tO0DILGWhQiFnFHiR+ZJfxLDyJlXgeut9Z07Svuvm+1Jv89w5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
