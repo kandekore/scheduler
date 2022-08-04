@@ -81,7 +81,7 @@ button.saveBtn.col-2 :active {
     margin-top: 50px;
 }
 
-blockquote.blockquote.mb-0 {
+.blockquote.mb-0 {
     text-align: center;
     padding: 20px;
 }
