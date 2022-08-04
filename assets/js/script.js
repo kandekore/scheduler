@@ -1,7 +1,31 @@
 var dateAndTime = document.querySelector("#timeanddate");
-var currentTime = moment();
+// var currentTime = moment().format('MMM DD, YYYY [at] hh:mm:ss');
 
-dateAndTime.textContent = currentTime.format("dddd, Do MMMM YYYY, h:mm")
+// dateAndTime.textContent = currentTime;
+
+// setInterval(currentTime, 1000);
+
+
+
+function displayTime () {
+    
+    var currentTime = moment().format('MMM DD, YYYY [at] hh:mm:ss');
+
+    dateAndTime.textContent = currentTime;
+   // console.log(dateAndTime.textContent);
+
+
+}
+
+//displayTime();
+
+// console.log(displayTime);
+
+// displayTime();
+
+
+
+
 
 
 $(".saveBtn").on("click", function() {
@@ -179,3 +203,5 @@ if (currentHour < hr5) {
     $("#5pmtxt").addClass("present");
     $("#5pmtxt").next('button').addClass("present");
 }
+
+setInterval(displayTime, 1000);
