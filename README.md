@@ -1,4 +1,4 @@
-Daily planner / scheduler app built using JavaScript, Moment.js 2.29.3, jQuery 3.6.0, HTML, CSS, Font Awesome & Bootstrap 5.2.0!
+Daily planner / scheduler app built using JavaScript, Moment.js 2.29.3, jQuery 3.6.0, HTML, CSS, Font Awesome & Bootstrap 5.2.0.
 
 Criteria Met
 GIVEN I am using a daily planner to create a schedule
@@ -16,4 +16,6 @@ WHEN I refresh the page
 THEN the saved events persist
 
 URL: https://kandekore.github.io/scheduler/
-[2022-08-04_23-31-59](https://user-images.githubusercontent.com/41653646/182964583-f22d4943-78cb-4423-bef9-d3b3bf97a423.jpg)
+
+
+![2022-08-04_23-31-59](https://user-images.githubusercontent.com/41653646/182964947-641f2743-2406-45b0-820c-0cb8fb2d6e02.jpg)
