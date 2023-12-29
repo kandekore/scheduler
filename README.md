@@ -1,21 +1,36 @@
-Daily planner / scheduler app built using JavaScript, Moment.js 2.29.3, jQuery 3.6.0, HTML, CSS, Font Awesome & Bootstrap 5.2.0.
+# Daily Planner / Scheduler App
 
-Criteria Met
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+## Introduction
+The Daily Planner / Scheduler App is a user-friendly web application designed to assist in effectively planning and organizing daily schedules. Utilizing the power of JavaScript, Moment.js, jQuery, and Bootstrap, this app offers a sleek and intuitive interface for managing your daily tasks with ease.
 
-URL: https://kandekore.github.io/scheduler/
+## Features
+- **Current Day Display**: Upon opening the planner, the current day is prominently displayed at the top, providing a clear reference point.
+- **Time Blocks for Standard Business Hours**: Scroll through time blocks allocated for each hour of a standard business day.
+- **Color-Coded Time Blocks**: Each time block is color-coded to visually distinguish past, present, and future hours, enhancing the planning experience.
+- **Editable Event Blocks**: Click on any time block to add or edit events and tasks for that specific hour.
+- **Local Storage Integration**: Save your tasks in local storage by clicking the save button, ensuring that your data persists even after refreshing the page.
 
+## Technologies Used
+- JavaScript
+- Moment.js 2.29.3
+- jQuery 3.6.0
+- HTML
+- CSS
+- Font Awesome
+- Bootstrap 5.2.0
 
-![2022-08-04_23-31-59](https://user-images.githubusercontent.com/41653646/182964947-641f2743-2406-45b0-820c-0cb8fb2d6e02.jpg)
+## Deployment
+The application is deployed and accessible at [Scheduler App](https://kandekore.github.io/scheduler/). 
+
+## Screenshot
+![Daily Planner / Scheduler App](https://user-images.githubusercontent.com/41653646/182964947-641f2743-2406-45b0-820c-0cb8fb2d6e02.jpg)
+
+## Usage
+This planner is ideal for professionals, students, or anyone looking to streamline their daily scheduling. It's particularly beneficial for managing appointments, meetings, and deadlines.
+
+## Acknowledgments
+Created and designed by Darren Kandekore. Special thanks to all the open-source contributors whose tools and libraries made this project possible.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
